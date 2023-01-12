@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 1rem;
+    background-color: rgb(241, 237, 229);
+}
+h3{
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+}
+.free{
+    background-image: url(./images/pexels-burak-the-weekender-186461.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 3rem;
+}
+
+.btn a{
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 1.2rem;
+    border-radius: 2rem;
+}
+.btn a:hover{
+    background-color: black;
+    color: white;
+}
+.learn{
+   background-image: url(./images/pexels-rodnae-productions-8370773.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(19, 18, 18, 0.3);
+    background-blend-mode: overlay;
+    color: white;
+    padding: 3rem;
+}
+
+.learn h3{
+    display: flex;
+    justify-content: center;
+}
+.modules{
+    display: flex;
+    justify-content: center;
+}
+
+.one{
+    padding: 2rem;
+}
+.one li{
+    font-size: 1.5rem;
+}
+.btn2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.learn a{
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    background-color: blanchedalmond;
+    padding: 1.2rem;
+    border-radius: 2rem;  
+}
+
+.learn a:hover{
+    color: white;
+    background-color: black;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 240, 232);
+    padding: 3rem;
+}
+.socials{
+    background-color: white;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding: 5rem;
+
+}
+.access{
+    border-radius: 2rem;
+    padding: 5rem;
+    background-image: url(./images/pexels-dom-j-45111.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: burlywood;
+    background-blend-mode: overlay;
+}
+.btn3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.access a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    padding: 1.2rem;
+    background-color: white;
+    border-color: 1px solid black;
+}
+.access a:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (min-width:375px) and (max-width: 1440px){
+    .modules{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bottom{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(247, 240, 232);
+        padding: 2rem;
+    }
+    .bottom h3{
+        font-size: 2rem;
+    }
+    .bottom p{
+        font-size: 1.5rem;
+    }
+    .learn h3{
+        display: flex;
+        justify-content: center;
+        font-size: 2.3rem;
+    }
+    .access{
+        border-radius: 0rem;
+        padding: 5rem;
+        background-image: url(./images/pexels-dom-j-45111.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: burlywood;
+        background-blend-mode: overlay;
+    }
+    .socials{
+        background-color: white;
+        border-top-left-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+        padding: 5rem;
+    
+    }
+}
